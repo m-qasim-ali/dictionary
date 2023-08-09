@@ -34,7 +34,7 @@ const index = () => {
         </Stack>
       )}
 
-      <Stack direction={'column'} alignItems={'center'}>
+      <Stack direction={'column'} alignItems={'center'} sx={{ mb: 5 }}>
         {bookmarks.map((el, index) => {
           return (
             <Box
@@ -44,7 +44,7 @@ const index = () => {
                 alignItems: 'center',
                 background: '#fff',
                 p: 2,
-                my: 4,
+                mt: 2,
                 borderRadius: 2,
                 cursor: 'pointer',
                 width: '100%',
